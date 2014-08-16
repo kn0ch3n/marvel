@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample app</title>
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>
+    <!-- import the click-counter -->
+    <link rel="import" href="getbutton.html">
+    <script type="application/dart">export 'package:polymer/init.dart';</script>
+    <script src="packages/browser/dart.js"></script>
+    
+    <link rel="stylesheet" href="marvel.css">
+  </head>
+  <body>
+    <h1>Marvel</h1>
+    
+    <p>Click the button to see some characters!</p>
+    
+    <div id="container">
+      <get-button></get-button>
+    </div>
+
+  </body>
+</html>
